@@ -21,7 +21,11 @@ typedef struct contact
 {
 	int size;
 	person_t list[MAX_SIZE];
+<<<<<<< HEAD
 }contact_t,*contact_p,**contact_pp;
+=======
+}contact_t,*contact_p,*contact_pp;
+>>>>>>> 0efe8dfb1fb9a1739d71f5d3ccea26347656dced
 void Menu();
 void Init_Cont(contact_p cp);
 void Add_Person(contact_p cp);
