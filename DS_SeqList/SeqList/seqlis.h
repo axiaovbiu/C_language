@@ -23,4 +23,6 @@ void SeqListErase(SeqList* psl, size_t pos);
 void SeqListRemove(SeqList* psl, SLDataType x);
 void SeqListModify(SeqList* psl, size_t pos, SLDataType x);
 void SeqListPrint(SeqList* psl);
+void SeqListBubbleSort(SeqList* psl);
+void SeqListRemoveAll(SeqList* psl, SLDataType x);
 #endif

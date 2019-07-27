@@ -10,12 +10,17 @@ int main()
 	SeqListPushBack(&cur, 4);
 	SeqListPushFront(&cur,5);
 	SeqListPushFront(&cur, 6);
-	SeqListPopBack(&cur);
+	SeqListPushFront(&cur, 6);
+	SeqListPushFront(&cur, 6);
+	SeqListPushFront(&cur, 6);
+	/*SeqListPopBack(&cur);
 	SeqListPopFront(&cur);
 	SeqListInsert(&cur, 2, 9);
 	SeqListErase(&cur, 2);
 	SeqListRemove(&cur,5);
-	SeqListModify(&cur, 1, 5);
+	SeqListModify(&cur, 1, 5);*/
+	//SeqListBubbleSort(&cur);
+	//SeqListRemoveAll(&cur, 6);
 	SeqListPrint(&cur);
 	return 0;
 }

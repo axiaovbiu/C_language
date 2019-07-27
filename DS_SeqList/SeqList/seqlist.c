@@ -117,3 +117,32 @@ void SeqListPrint(SeqList* psl)
 	putchar('\n');
 	return;
 }
+void SeqListBubbleSort(SeqList* psl)
+{
+	int i, j, tmp;
+	for (i = 0; i < psl->size - 1; i++)
+	{
+		for (j = 0; j < psl->size - i - 1; j++)
+		{
+			if (psl->array[j] > psl->array[j+1])
+			{
+				tmp = psl->array[j +1];
+				psl->array[j + 1] = psl->array[j];
+				psl->array[j] = tmp;
+			}
+		}
+	}
+}
+void SeqListRemoveAll(SeqList* psl, SLDataType x)
+{
+	
+	while (1)
+	{
+		int i = SeqListFind(psl, x);
+		if (i == -1)
+
+		{
+			return;
+		}
+		SeqListErase(psl, i);
+}
