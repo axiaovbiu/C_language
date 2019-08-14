@@ -23,6 +23,6 @@ int main()
 	//SListRemove(&test, 4);
 	SListRemoveAll(&test, 1);
 	SListPrint(test);
-	//SListDestory(&test);
+	SListDestory(&test);
 	return 0;
 }

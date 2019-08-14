@@ -9,7 +9,7 @@ void SListDestory(SList **pplist)
 {
 	while (*pplist)
 	{
-		SListPopFront(*pplist);
+		SListPopFront(pplist);
 	}
 	free(*pplist);
 }
