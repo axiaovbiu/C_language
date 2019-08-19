@@ -47,16 +47,11 @@ void main()
 	return 0;
 }*/
 //算法题：求一个有序数组中的两个元素相加为k的数字，返回这两个元素的下标.
-<<<<<<< HEAD
 int Search(int arr[], int k,int len)
-=======
-int *Search(int arr[], int k,int len)
->>>>>>> 791ffa7091fee91267bdd34a253cc3069a871a40
 {
 	int i = 0;
 	int left;
 	int right;
-	int a[2] = { 0 };
 	for (i = 0; i < len; i++)
 	{
 		if (arr[i] > k)
@@ -64,7 +59,7 @@ int *Search(int arr[], int k,int len)
 			break;
 		}
 	}
-	right = i - 1;
+	right = i - 1; 
 	left = 0;
 	while (left <= right)
 	{
