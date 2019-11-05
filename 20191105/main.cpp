@@ -71,9 +71,9 @@ class Solution{
           stack1.pop();
         }
       }
-      int tmp = stack2.top();
+      int cur = stack2.top();
       stack2.pop();
-      return tmp;
+      return cur;
     }
   private:
     stack<int> stack1;
